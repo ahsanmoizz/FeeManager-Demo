@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 import FEE_MANAGER_ABI from "./abi/FeeManager.json";
 
-const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS as string;
-const RPC_URL = import.meta.env.VITE_RPC_URL as string;
-const WC_PROJECT_ID = import.meta.env.VITE_WC_PROJECT_ID as string;
+const CONTRACT_ADDRESS = "0x9d724F5f857194d412CBA185A8080bE7FFEf50d2";
+const RPC_URL = "https://eth-sepolia.g.alchemy.com/v2/Lm8FAfpf8vXLKhdnlOP9GRi--F-tNZWP";
+const WC_PROJECT_ID = "2136f5f8d1d986ba874727234220f330";
 
 export default function App() {
   const [provider, setProvider] = useState<ethers.BrowserProvider | null>(null);
